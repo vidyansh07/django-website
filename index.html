@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#achievements">Achievements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbies">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- try
+  <script>
+   
+    function wap(){
+        let x = document.getElementById("show");
+        let y = document.getElementById("kt").src;
+        x.src=y;
+    }
+  </script>
+
+  <img src="coding.png" alt="" height="400px" width="400px" id="show"> 
+  <img src="security.png" alt="" height="100px" width="100px"  onclick="wap()" id="kt">
+  <img src="IMG_20220603_090425-modified.png" alt="" height="100px" width="100px" id="kt" onclick="wap()" > -->
+
+
+
+
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container" >
+        <div class="row">
+            <div class="col-xl-6">
+                    <p>Hii,</p>
+                    <h1>Vidyansh Here</h1>
+                    <p>
+                        "Hello everyone! My name is Vidyansh, and I'm here as a student and lifelong learner. I'm currently pursuing a degree in Computer Science, where I'm constantly expanding my knowledge and skills in the ever-evolving world of technology.
+                    </p>
+
+
+
+            </div>
+            <div class="col-xl-6" id="img">
+                <img src="images/myImage.png" height="400px" width="400px" alt="profile image">
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- Hobbies Section -->
+  <section id="hobbies" class="py-5 bg-light">
+    <div class="container" id="hobby">
+      <h2 class="section-heading">Hobbies</h2>
+      <p>My hobbies are traveling, playing games and exploring internet etc.</p>
+
+    </div>
+  </section>
+
+   <!-- Skills Section -->
+   <section id="skills" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-heading">Skills</h2>
+      <div class="container">
+        <div class="row">
+            <div class="col-xl-6">
+                <p class="paragraf">Web development</p>
+            </div>
+            <div class="col-xl-6">
+                <img src="images/coding.png" height="200px" width="200px" alt="web img">                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6">
+                <img src="images/ml.png" height="200px" width="200px" alt="web img"> 
+            </div>
+            <div class="col-xl-6">
+                <p class="paragraf">Ai and Ml</p> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6">
+                <p class="paragraf">Cyber security</p>
+            </div>
+            <div class="col-xl-6">
+                <img src="images/security.png" height="200px" width="200px" alt="web img"> 
+            </div>
+        </div>
+
+        </div>
+      </div>
+        
+
+    </div>
+  </section>
+
+   <!-- Achievements Section -->
+   <section id="achievements" class="py-5">
+    <div class="container">
+      <h2 class="section-heading">Achievements</h2>
+      <div class="row">
+        <div class="col-xl-4">
+          1. Exploring hackthons
+        </div>
+        <div class="col-xl-4">
+          <ul>
+          <li>2. Some Technical skills
+            <p><li>
+              Internet Exploring
+            </li>
+          <li>
+            Some Programming languages
+          </li>
+        </p>Etc.</li></div>
+        
+        <div class="col-xl-4">
+          Frontend development
+        </div>
+      </div>
+      
+
+
+      
+        <!-- Add more achievements here -->
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-5 bg-light">
+     <h2 class="section-heading">Gallery</h2>
+    <div class="container">
+        <div class="row">
+          <div class="col-xl-6" >
+            <img src="images/e3.jpeg" alt="" height="420px" width="530px" id="image">
+         </div>
+            <div class="col-xl-6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <img  src="images/e2.jpeg" alt="" height ="100px" width="100px" onclick="firstImage()">
+                        
+                        </div>
+                        <div class="col-xl-3">
+                              <img src="images/e3.jpeg" alt="" height ="100px" width="100px"
+                              onclick="secondImage()">
+                        </div>
+                        <div class="col-xl-3">
+                          <img src="images/e4.jpeg" alt="" height ="100px" width="100px" onclick="thirdImage()">
+                        
+                        </div>
+                        <div class="col-xl-3">
+                          <img src="images/e1.jpeg" alt="" height ="100px" width="100px"
+                          onclick="fouthImage()">
+                        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <img  src="images/e5.jpeg" alt="" height ="100px" width="100px" onclick="e">
+                        
+                        </div>
+                        <div class="col-xl-3">
+                          <img src="images/e6.jpeg" alt="" height ="100px" width="100px" onclick="e1()">
+                            
+                        
+                        </div>
+                        <div class="col-xl-3">
+                          <img src="images/e7.jpeg" alt="" height ="100px" width="100px" onclick="e2()">
+                        
+                        </div>
+                        <div class="col-xl-3">  
+                        <img src="images/e8.jpeg" alt="" height ="100px" width="100px" onclick="e3()">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <img  src="images/e9.jpeg" alt="" height ="100px" width="100px" onclick="e4()">
+                        
+                        </div> 
+                        <div class="col-xl-3">
+                            <img  src="images/e15.jpeg" alt="" height ="100px" width="100px" onclick="e5()">
+                        
+                        </div> 
+                        <div class="col-xl-3">
+                            <img  src="images/e14.jpeg" alt="" height ="100px" width="100px" onclick="e6()">
+                        
+                        </div> 
+                        <div class="col-xl-3">
+                            <img  src="images/e11.jpeg" alt="" height ="100px" width="100px" onclick="e8()">
+                        
+                        </div> 
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     
+      <!-- Add your gallery images here -->
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="section-heading">Contact Me</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+
+<script src="script.js"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
